@@ -65,5 +65,11 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    server: {
+      port: process.env.PORT || 3000,
+      host: '0.0.0.0',
+      timing: false,
+    },
+  },
 }
