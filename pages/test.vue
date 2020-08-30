@@ -21,7 +21,7 @@
           GitHub
         </a>
       </div>
-      <nuxt-link to="/test" v-text="'テストへ'" />
+      <nuxt-link to="/" v-text="'TOPへ'" />
     </div>
   </div>
 </template>
