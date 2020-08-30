@@ -1,5 +1,5 @@
 steps:
-  - name: gcr.io/cloud-builders/docker
-    args:
-      ['build','-f','Dockerfile','-t','gcr.io/nuxt-cloudrun/nuxt-container','.']
-  images: ['gcr.io/nuxt-cloudrun/nuxt-container']
+- name: gcr.io/cloud-builders/docker
+  args:
+    ['build','-f','Dockerfile','-t','gcr.io/nuxt-cloudrun/nuxt-container','.']
+images: ['gcr.io/nuxt-cloudrun/nuxt-container']
