@@ -1,5 +1,5 @@
 steps:
-- name: asia.gcr.io/cloud-builders/docker
+- name: gcr.io/cloud-builders/docker
   args:
     ['build','-f','Dockerfile','-t','asia.gcr.io/nuxt-cloudrun/nuxt-cloudrun-push','.']
 images: ['asia.gcr.io/nuxt-cloudrun/nuxt-cloudrun-push']
